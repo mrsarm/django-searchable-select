@@ -144,7 +144,7 @@ So the mapping is as follow:
    class Blog(models.Model):
        tags = ArrayField(models.CharField(max_length=255), blank=True, default=list)
 
-Anf the mapping of the table where you have all the possible tags:
+And the mapping of the table where you have all the possible tags:
 
 .. code:: python
 
